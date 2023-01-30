@@ -16,6 +16,6 @@ hemos aprendido a utilizar **git** y **git hub**. Los comandos mas importantes s
 cada vez que queremos guardar los cambios en github:
 
 1. guardar los cambios en Visual studio
-2. `git add *`
-3. `git commit -m "mensaje"`
-4. `git push origin main`
+2. git add *
+3. git commit -m "mensaje"
+4. git push origin main
