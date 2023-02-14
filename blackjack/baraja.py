@@ -16,6 +16,11 @@ class Baraja :
         random.shuffle(self.cartas)
     def contar(self):
         return len(self.cartas)
+    def coger_carta(self):
+        return self.cartas.pop()
+    def mostrar(self):
+        for carta in self.cartas:
+            print(carta)
 
 mibaraja = Baraja()
 '''
@@ -24,4 +29,4 @@ print(mibaraja.cartas)
 '''
 
 numero_cartas = mibaraja.contar()
-print(numero_cartas)
+
