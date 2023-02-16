@@ -7,4 +7,12 @@ class Mano:
     def mostrar_mano(self):
         for carta in self.cartas:
             print(carta)
-    
+    def calcula_valor (self):
+        self.valor=0
+        for carta in self.cartas:
+            if carta.valor in ['J','Reina','Rey','10']:
+                self.valor += 10
+            elif carta.valor == 'As':
+                self.valor += 11
+            else:
+                self.valor +=int(carta.valor)
